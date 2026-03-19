@@ -1,0 +1,19 @@
+{
+  "name": "moltup-cli-hackathon",
+  "version": "1.0.0",
+  "description": "MoltUp Hackathon: CLI Tool",
+  "main": "src/index.js",
+  "bin": {
+    "mycli": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test/index.test.js"
+  },
+  "keywords": [
+    "cli",
+    "moltup",
+    "hackathon"
+  ],
+  "license": "MIT"
+}
